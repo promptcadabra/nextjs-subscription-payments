@@ -17,6 +17,9 @@ dependencies:
   '@supabase/supabase-js':
     specifier: ^2.39.3
     version: 2.39.3
+  ai:
+    specifer: ^2.2.27
+    version: 2.2.27
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -26,6 +29,12 @@ dependencies:
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
+  dotenv: 
+    specifier: ^16.3.1
+    version: 16.3.1
+  llamaindex: 
+    specifier: 0.1.21
+    version: 0.1.21
   lucide-react:
     specifier: 0.330.0
     version: 0.330.0(react@18.2.0)
@@ -41,9 +50,24 @@ dependencies:
   react-merge-refs:
     specifier: ^2.1.1
     version: 2.1.1
+  remark: 
+    specifier: ^14.0.3
+    version: 14.0.3
+  remark-code-import: 
+    specifier: ^1.2.0
+    version: 1.2.0
+  remark-gfm: 
+    specifier: ^3.0.1
+    version: 3.0.1
+  remark-math: 
+  specifier: ^5.1.1
+  version: 5.1.1
   stripe:
     specifier: ^14.16.0
     version: 14.16.0
+  supports-color: 
+    specifier: ^9.4.0
+    version: 9.4.0
   tailwind-merge:
     specifier: ^2.2.1
     version: 2.2.1
@@ -64,9 +88,15 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.19
     version: 18.2.19
+  '@types/react-syntax-highlighter': 
+    specifier: ^15.5.11
+    version: 15.5.11
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
+  cross-env: 
+    specifier: ^7.0.3
+    version: 7.0.3
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -94,6 +124,9 @@ devDependencies:
   supabase:
     specifier: ^1.142.2
     version: 1.142.2
+  tailwindcss":
+    specifier: ^3.3.6
+    version: 3.3.6
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
